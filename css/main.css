@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #30302f;
+    color: #fff;
+}
+
+.zajecie {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 27px;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #dfdfdf;
+    color: #30302f;
+}
+
+#plan {
+    max-width: 520px;
+    margin: auto;
+}
+
+.zajecie > div {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.typ, .dzien {
+    width: 80px;
+}
+
+.przedmiot {
+    font-size: 1.5em;
+}
+
+span, h1, p {
+    text-align: center;
+}
