@@ -39,3 +39,7 @@ body {
 span, h1, p {
     text-align: center;
 }
+
+.d-none {
+    display: none;
+}
