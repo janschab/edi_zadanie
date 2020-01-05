@@ -2,19 +2,7 @@ body {
     margin: 0;
     background-color: #30302f;
     color: #fff;
-}
-
-.zajecie {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 27px;
-    padding: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    background-color: #dfdfdf;
-    color: #30302f;
+    font-family: Calibri, Verdana;
 }
 
 #plan {
@@ -22,23 +10,44 @@ body {
     margin: auto;
 }
 
-.zajecie > div {
+.zajecie {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 27px;
+    padding: 10px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #dfdfdf;
+    color: #30302f;
+}
+
+.zajecie > p {
     width: 100%;
     justify-content: space-evenly;
     display: flex;
+    margin: 4px 0;
 }
 
 .typ, .dzien {
-    width: 80px;
+    width: 130px;
 }
 
 .przedmiot {
     font-size: 1.5em;
+    cursor: pointer;
 }
 
 span, h1, p {
     text-align: center;
 }
+
+div.info {
+    display: none;
+    width: 100%;
+}
+
 
 .d-none {
     display: none;
