@@ -1,7 +1,7 @@
 $(document).ready(() => {
     const pola = ['dzien', 'termin', 'typ', 'przedmiot', 'sala', 'od-godz', 'do-godz'];
 
-    const Json = $.getJSON('./json/plan.json', (json) => {
+    $.getJSON('./json/plan.json', (json) => {
         const template = $('.zajecie').first().clone().removeClass('d-none');
         $('#plan').empty();
 
